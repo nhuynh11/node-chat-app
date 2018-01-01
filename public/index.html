@@ -11,17 +11,7 @@
 
 
     <script src="/socket.io/socket.io.js"></script>
-    <script>
-      var socket = io();    // this variable is critical to communicating with our servers
-
-      socket.on('connect', () => {
-        console.log('Connected to server')
-      });
-
-      socket.on('disconnect', () => {
-        console.log('Disconnected from server')
-      });
-    </script>
+    <script src="/js/index.js"></script>
   </body>
 
 </html>
